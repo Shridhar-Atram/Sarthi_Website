@@ -113,8 +113,9 @@ section a.btn {
   background-color: #1bbc9b; 
   color: black;
   border-radius: 24px;
+  border: none;
   padding: 14px 30px;
-  font-weight: bold;
+  text-decoration: none;
   border-color: #1bbc9b;
   transition: background-color 400ms;
 }
@@ -146,13 +147,95 @@ a.btn.cyan:hover {
 }
 
 .hero-container .left p {
-  font-size: 24px;
+  font-size: 20px;
+  padding-left: 350px;
+}
+
+.hero-container .left h3 {
+  font-size: 20px;
+  padding-left: 320px;
+  padding-right: 300px;
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #ffcc00; /* Golden Orange */
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enquiry-form {
+  width: 100%;
+  min-height: 500px;
+  padding: 50px 0;
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  background-color: #ecf0f1;
+  text-align: left;
+}
+
+.background-div {
+          background: url('images/contact.png') no-repeat center center;
+          background-size: cover;
+          padding: 50px;
+          position: relative;
+          color: rgba(255, 255, 255, 0.8);
+}
+.background-div form {
+          text-align: left;
+          background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+          padding: 10px;
+          border-radius: 10px;
+    width: 50%;
+}
+      
+.background-div input {
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+          margin-bottom: 15px;
+}
+.background-div textarea,
+.background-div button {
+          background-color: transparent; /* Transparent input fields */
+          border: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+          color: rgba(255, 255, 255, 0.8);
+          margin-bottom: 15px;
+    
+}
+.background-div button {
+          background-color: #1bbc9b; 
+          color: white;
 }
 
 .hero-container .left h1 {
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   margin: 8px 0 28px 0;
+  padding-left: 300px;
 }
 
 .hero-container .left .gt {
@@ -414,7 +497,7 @@ section h2::after {
 }
 
 /* Contact Section */
-
+/*
 input[type="text"],
 textarea {
   padding: 16px 30px;
@@ -438,6 +521,7 @@ input[type="text"]:nth-of-type(1) {
 input[type="text"]:nth-of-type(2) {
   margin-left: 16px;
 }
+*/
 
 /* Footer */
 
@@ -461,13 +545,13 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   padding-left: 1px;
-  padding-top: 1px;
+  padding-top: 0;
 }
 
 .footer-container .logo {
   align-self: center;
   padding-left: 100px;
-  padding-top: 23px;
+  padding-top: 10px;
 }
 
 .footer-container ul {
@@ -513,7 +597,7 @@ footer a:hover {
 
 /* Media Queries */
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
   .wrapper {
     padding: 0;
     width: auto;
@@ -662,7 +746,7 @@ footer a:hover {
   }
 
   /* Contact Section */
-
+  /*
   .contact-section .group {
     flex-direction: column;
   }
@@ -678,6 +762,7 @@ footer a:hover {
   .contact-section input[type="text"] {
     margin-bottom: 30px;
   }
+  */
 
   /* Footer */
 
