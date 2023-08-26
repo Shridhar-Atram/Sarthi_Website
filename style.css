@@ -26,7 +26,7 @@ body {
 .wrapper {
   width: 1152px;
   margin: 0 auto;
-  padding: 0 200px;
+  padding: 0 100px;
 }
 
 p {
@@ -465,6 +465,7 @@ footer a:hover {
 
 .footer-container .logo {
   align-self: center;
+  padding-left: 100px;
 }
 
 .footer-container ul {
