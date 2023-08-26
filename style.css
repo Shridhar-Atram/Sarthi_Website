@@ -26,7 +26,7 @@ body {
 .wrapper {
   width: 1152px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 200px;
 }
 
 p {
@@ -107,6 +107,16 @@ a.btn {
 
 section a.btn {
   display: inline-block;
+}
+
+.background-div button {
+  background-color: #1bbc9b; 
+  color: black;
+  border-radius: 24px;
+  padding: 14px 30px;
+  font-weight: bold;
+  border-color: #1bbc9b;
+  transition: background-color 400ms;
 }
 
 a.btn.cyan {
@@ -435,7 +445,7 @@ footer {
   background: var(--dark-color);
   color: var(--light-color);
   margin-top: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 footer a {
@@ -450,7 +460,7 @@ footer a:hover {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 100px 0 32px 0;
+  padding: 1px 0 32px 0;
 }
 
 .footer-container .logo {
@@ -458,7 +468,7 @@ footer a:hover {
 }
 
 .footer-container ul {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 0;
   list-style: none;
 }
@@ -468,12 +478,12 @@ footer a:hover {
 }
 
 .footer-container .footer-social {
-  margin: 30px 0 24px 0;
+  margin: 1em;
 }
 
 .footer-container .footer-social a {
   text-decoration: none;
-  margin: 0 15px;
+  margin: 1em;
 }
 
 .footer-container .footer-social a:first-child {
@@ -675,6 +685,7 @@ footer a:hover {
 
   .footer-container .footer-nav {
     margin-top: 80px;
+    padding-bottom: 0;
   }
 
   .footer-container .logo {

@@ -233,25 +233,27 @@
     <!-- End of Testimonials Section -->
 
     <div class="wrapper">
-      <section id="contact" class="contact-section">
+      <section id="contact" class="contact-section background-div">
         <h2>Contact Us</h2>
-        <form action="#">
+        <form id="contact-form">
           <div class="group">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Phone" />
+            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required/>
+            <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" required/>
           </div>
 
           <div class="group">
             <textarea
-              name=""
-              id=""
+              class="form-control"
+              name="query"
               cols="30"
               rows="10"
+              id="query"
               placeholder="Your Message"
+              required
             ></textarea>
           </div>
 
-          <a href="#" class="btn cyan">Send Message</a>
+          <button  type="submit" class="btn btn-primary">Send Message</button>
         </form>
       </section>
     </div>
@@ -262,38 +264,40 @@
       <div class="wrapper">
         <div class="footer-container">
           <div class="logo">
-            <img src="images\logo_down.png  " alt="sarthi" height="100px" width="200px" c/>
+            <img src="images\logo_down.png  " alt="sarthi" height="120px" width="200px" c/>
           </div>
 
+          <!--
           <div class="footer-nav">
-            <!-- <h3>Our Services</h3>
+            <h3>Our Services</h3>
             <ul>
               <li><a href="#">Mobile Development</a></li>
               <li><a href="#">Web App Development</a></li>
               <li><a href="#">Theme Development</a></li>
               <li><a href="#">SEO</a></li>
-            </ul> -->
+            </ul>
           </div>
 
           <div class="footer-nav">
-            <!-- <h3>About Us</h3>
+            <h3>About Us</h3>
             <ul>
               <li><a href="#">GT Web Design</a></li>
               <li><a href="#">Terms & Conditions</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Contact</a></li>
-            </ul> -->
+            </ul>
           </div>
+          -->
 
           <div class="footer-nav">
-            <h3>Get Social</h3>
+            <!-- <h3>Get Social</h3> -->
 
             <div class="footer-social">
               <a href="https://facebook.com">
                 <img src="images/FacebookLogo.png" alt="" />
               </a>
 
-              <a href="https://instagram.com">
+              <a href="https://instagram.com/ ">
                 <img src="images/InstagramLogo.png" alt="" />
               </a>
 
@@ -302,7 +306,8 @@
               </a>
             </div>
 
-            <p>sarthi@gmail.com</p>
+            <p>sarthistartup906@gmail.com</p>
+            <p>&copy; 2023 PROJECT SARTHI. All rights reserved.</p>
           </div>
         </div>
       </div>
