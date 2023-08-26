@@ -460,12 +460,14 @@ footer a:hover {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding: 1px 0 32px 0;
+  padding-left: 1px;
+  padding-top: 1px;
 }
 
 .footer-container .logo {
   align-self: center;
   padding-left: 100px;
+  padding-top: 23px;
 }
 
 .footer-container ul {
@@ -480,6 +482,7 @@ footer a:hover {
 
 .footer-container .footer-social {
   margin: 1em;
+  padding-top: 25px;
 }
 
 .footer-container .footer-social a {
