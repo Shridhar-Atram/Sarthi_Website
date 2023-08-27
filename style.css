@@ -148,7 +148,7 @@ a.btn.cyan:hover {
 
 .hero-container .left p {
   font-size: 20px;
-  padding-left: 400px;
+  padding-left: 250px;
   padding-top: 43px;
 }
 
@@ -236,11 +236,11 @@ form button {
   font-size: 36px;
   font-family: "Montserrat", sans-serif;
   margin: 8px 0 28px 0;
-  padding-left: 300px;
+  padding-left: 330px;
 }
 
 .hero-container .left .gt {
-  color: var(--red-color);
+  color: var(--red-hover-color);
 }
 
 .hero-container .left .btn {
