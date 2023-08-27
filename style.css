@@ -780,6 +780,7 @@ footer a:hover {
 
   .footer-container .logo {
     order: 2;
+    padding-left: 100px;
   }
 
   /* Mobile Nav */
