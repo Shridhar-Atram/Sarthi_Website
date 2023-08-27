@@ -772,13 +772,13 @@ footer a:hover {
   }
 
   .footer-container .footer-nav {
-    margin-top: 80px;
+    margin-top: 40px;
     padding-bottom: 0;
   }
 
   .footer-container .logo {
     order: 2;
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   /* Mobile Nav */
