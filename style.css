@@ -148,13 +148,14 @@ a.btn.cyan:hover {
 
 .hero-container .left p {
   font-size: 20px;
-  padding-left: 350px;
+  padding-left: 400px;
+  padding-top: 43px;
 }
 
 .hero-container .left h3 {
   font-size: 20px;
-  padding-left: 320px;
-  padding-right: 300px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 

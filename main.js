@@ -80,3 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.style.opacity = 1; // Show content after everything is loaded
+});
