@@ -551,14 +551,19 @@ footer a:hover {
 
 .footer-container .logo {
   align-self: center;
-  padding-left: 100px;
+  padding-left: 300px;
   padding-top: 10px;
 }
 
 .footer-container ul {
   margin-top: 10px;
-  padding: 0;
+  padding-right: 300px;
   list-style: none;
+}
+
+.footer-container .footer-nav {
+  margin-top: 0px;
+  padding-right: 150px;
 }
 
 .footer-container ul li {
