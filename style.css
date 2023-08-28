@@ -681,6 +681,7 @@ footer a:hover {
   .hero-container .left h1 {
     font-size: 30px;
     padding-left: calc(100% - 68%);
+    padding-right: calc(100% - 68%);
   }
 
   .hero-container .left h3 {
